@@ -1,0 +1,40 @@
+.highlight {
+    border-radius: 0.4rem;
+    color: white;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+    font-size: 0.82em;
+  }
+  .highlight2 {
+    border-radius: 0.7rem;
+    color: rgb(17, 12, 12);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1em;
+    font-weight: 600;
+  }
+  .bold {
+    padding-left: 1rem;
+    font-weight: 700;
+  }
+  .blue {
+    background-color: lightcoral;
+  }
+  .red {
+    background-color: lightblue;
+  }
+  .green {
+    background-color: rgb(94, 228, 123);
+  }
+  .orange{
+      background-color: rgb(249, 108, 0);
+  }
+  .orange2{
+      background-color: rgb(235, 157, 65);
+  }
+  .yellow{
+      background-color: rgb(234, 236, 122);
+  }
+  .gray{
+      background-color: rgb(186, 185, 187);
+  }
