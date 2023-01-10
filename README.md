@@ -9,7 +9,7 @@ L'objectif étant de développer un modèle de classification de déchets pour p
 Avant d'utiliser le projet, il est nécessaire de préparer l'environnement de travail.
 
 ## Installer Anaconda
-* Pour installer Anaconda, il suffit de le télécharger du [site officiel] (https://www.anaconda.com/products/distribution) et l'installer.
+* Pour installer Anaconda, il suffit de le télécharger du [site officiel](https://www.anaconda.com/products/distribution) et l'installer.
 * Ensuite, il faut créer un environnement. Pour ce faire, il faut utiliser la commande suivate:
 `conda create -n nom_environnement`
 (Vous pouvez choisir le nom que vous voulez)
@@ -17,7 +17,10 @@ Avant d'utiliser le projet, il est nécessaire de préparer l'environnement de t
 
 ## Dépendences
 Une fois l'environnement est créé et est installer, il faut installer les dépendances nécessaires pour faire fonctionner le projet.
-Les dépendances sont lister dans le fichier "requirements.txt". Il faut les installer en faisant:
+* D'abord, il faut s'assurer que la machine contient une carte graphique capable de faire un entrainement.
+Il faut installer [CUDA  11.3](https://developer.nvidia.com/cuda-11.3.0-download-archive) et [CUDNN 8.2.1](https://developer.nvidia.com/rdp/cudnn-archive)
+
+* Les dépendances sont listées dans le fichier "requirements.txt". Il faut les installer en faisant:
 `pip install requirements.txt`
 
 <!-- ENTRAINEMENT -->
