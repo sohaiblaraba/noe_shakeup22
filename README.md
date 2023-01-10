@@ -9,7 +9,7 @@ L'objectif étant de développer un modèle de classification de déchets pour p
 Avant d'utiliser le projet, il est nécessaire de préparer l'environnement de travail.
 
 ## Installer Anaconda
-* Pour installer Anaconda, il suffit de le télécharger du site officiel https://www.anaconda.com/products/distribution et l'installer.
+* Pour installer Anaconda, il suffit de le télécharger du [site officiel] (https://www.anaconda.com/products/distribution) et l'installer.
 * Ensuite, il faut créer un environnement. Pour ce faire, il faut utiliser la commande suivate:
 `conda create -n nom_environnement`
 (Vous pouvez choisir le nom que vous voulez)
