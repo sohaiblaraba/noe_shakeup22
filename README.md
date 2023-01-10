@@ -27,7 +27,7 @@ Pour lancer un entrainement d'un modèle, il faut lancer la commande suivante:\
 Où:
 * --data path_to_data: Il faut spécifier le chemin vers le dossier contenant les images.
 Le dossier doit avoir des sousdossiers (qui correspondent aux classes), qui contiennent les images correspondantes, comme montré ci-dessous :
-
+Vous pouvez déjà télécharger [cette base de données](https://drive.google.com/file/d/1tBfsf7ghNRGjSDx3IXpRw5f6NNoGl-OX/view?usp=sharing) pour commencer.
 data-\
 ------- classe1 \
 ----------------- image1\
