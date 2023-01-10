@@ -58,7 +58,7 @@ data-\
 
 <!-- PREDICTION -->
 # Prédiction sur une image
-`python predict.py --model ResNet50 --image image.jpeg` 
+`python predict.py --model NOE_MobileNet_V2.h5 --image image.jpeg` 
 
 <!-- REALTIME -->
 # Temps réel
