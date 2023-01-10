@@ -80,8 +80,9 @@ while(True):
     # print(np.max(pred))
     
     cv2.putText(frame, txt, (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2, cv2.LINE_AA)
+    cv2.putText(frame, 'Press "s" to capture and process image, "q" to quit.', (10, frame.shape[0]-10), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2, cv2.LINE_AA)
 
-    cv2.imshow('', frame) 
+    cv2.imshow('', frame)
     # the 'q' button is set as the
     # quitting button you may use any
     # desired button of your choice
